@@ -1,4 +1,4 @@
-package com.plus.javacore.com.plus.declare;
+package com.plus.javacore.declare;
 
 /**
  * Created by Mina Mimi on 10/1/2020.
