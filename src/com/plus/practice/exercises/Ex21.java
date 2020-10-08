@@ -10,9 +10,9 @@ public class Ex21 {
         System.out.print("Input second number: ");
         int input2 = sc.nextInt();
         System.out.println(input1 + " + " + input2 + " = " + (input1 + input2));
-        System.out.println(input1 + " - " + input2 + " = " + (input1 + input2));
-        System.out.println(input1 + " * " + input2 + " = " + (input1 + input2));
-        System.out.println(input1 + " / " + input2 + " = " + (input1 + input2));
+        System.out.println(input1 + " - " + input2 + " = " + (input1 - input2));
+        System.out.println(input1 + " * " + input2 + " = " + (input1 * input2));
+        System.out.println(input1 + " / " + input2 + " = " + (input1 / input2));
         System.out.println(input1 + " mod " + input2 + " = " + (input1 % input2));
     }
 }

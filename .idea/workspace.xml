@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daec549-b269-4aa4-b32f-821dad713b68" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jdk1_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/Ex21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/Ex22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/Ex23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javacore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javacore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/Fibonaci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/Fibonaci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/Scaner/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/Scaner/Example1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/declare/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/declare/Example1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/operator/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/operator/Example1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/type/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/type/Example1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/type/Example2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/type/Example2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/type/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/javacore/type/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Example1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Example1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Example2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Example2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Example3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Example3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Operator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javacore/com/plus/temp/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/plus/practice/exercises/Ex21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/Ex21.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ex23">
+  <component name="RunManager" selected="Application.Ex21">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -260,9 +242,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex21" />
         <item itemvalue="Application.Ex23" />
         <item itemvalue="Application.Ex22" />
-        <item itemvalue="Application.Ex21" />
         <item itemvalue="Application.Operator" />
         <item itemvalue="Application.Test" />
       </list>
@@ -283,7 +265,7 @@
       <workItem from="1601483795256" duration="169000" />
       <workItem from="1601485722456" duration="15800000" />
       <workItem from="1601655681224" duration="62000" />
-      <workItem from="1602150537697" duration="973000" />
+      <workItem from="1602150537697" duration="1626000" />
     </task>
     <servers />
   </component>
