@@ -1,40 +1,26 @@
-//package com.plus.practice.exercises.ex5;
-//
-//import java.util.Scanner;
-//
-///**
-// * Created by Mina Mimi on 10/14/2020.
-// */
-//public class ArrayDup {
-//    public static void main(String[] args) {
-//        System.out.print("Input length:");
-//        Scanner scanner = new Scanner(System.in);
-//        int number = scanner.nextInt();
-//        int[] myArray = new int[number];
-//        for (int i = 0; i < number; i++) {
-//            myArray[i] = scanner.nextInt();
-//        }
-//        System.out.print("Origin array:");
-//        for(int element:myArray) {
-//            System.out.print(element + " ");
-//        }
-//
-//        String fullStr = "";
-//        for(int element:myArray) {
-//            String temp = "#" + element + "#";
-//            if(!fullStr.contains(temp)){
-//                fullStr = fullStr + temp;
-//            }
-//        }
-//        String[] myRemoveStr = fullStr.replace("##","#").split("#");
-//        int[] myResultArray = new int[myRemoveStr.length];
-//        for (int i = 0; i < myRemoveStr.length; i++) {
-//            myResultArray[i] = Integer.parseInt(myRemoveStr[i]);
-//        }
-//        System.out.print("Last:");
-//        for(int element:myResultArray) {
-//            System.out.println(element + " ");
-//        }
-//
-//    }
-//}
+package com.plus.practice.exercises.ex5;
+
+import java.util.Scanner;
+
+/**
+ * Created by Mina Mimi on 10/14/2020.
+ */
+public class ArrayDup {
+    public static void main(String[] args) {
+        int arr[] = {10,20,20,30,30,50,48,50};
+        int length = arr.length;
+        Arrays.sort(arr);
+        int j = 0;
+        for (int i = 0; i < length - 1; i++) {
+            if(arr[i] != arr[i+1]) {
+                arr[j++] = arr[i];
+            }
+        }
+        arr[j] = arr[length-1];
+        int[] newArray = new int[j+1];
+
+        for (int i = 0; i <= j ; i++) {
+            newArray[i] = arr[i];
+        }
+    }
+}
