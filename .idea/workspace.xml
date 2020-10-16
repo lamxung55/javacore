@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daec549-b269-4aa4-b32f-821dad713b68" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/ArrayDup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/ArrayDup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/Amstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/Amstrong.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayDup">
+  <component name="RunManager" selected="Application.Amstrong">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -243,8 +242,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayDup" />
         <item itemvalue="Application.Amstrong" />
+        <item itemvalue="Application.ArrayDup" />
         <item itemvalue="Application.Sample1 (1)" />
         <item itemvalue="Application.Fibonaci" />
         <item itemvalue="Application.Ex42" />
@@ -269,7 +268,7 @@
       <workItem from="1601816243022" duration="867000" />
       <workItem from="1602593849702" duration="7994000" />
       <workItem from="1602685571372" duration="4215000" />
-      <workItem from="1602736134252" duration="754000" />
+      <workItem from="1602736134252" duration="6521000" />
     </task>
     <servers />
   </component>
