@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daec549-b269-4aa4-b32f-821dad713b68" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/plus/javacore/classobject/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/Amstrong.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/Amstrong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ppt/Java core - Lecture 5 - OOP.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/ppt/Java core - Lecture 5 - OOP.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Amstrong">
+  <component name="RunManager" selected="Application.Student">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -80,20 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.plus.practice.exercises.ex4.Ex42" />
-      <module name="javacore" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.plus.practice.exercises.ex4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Fibonaci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.plus.javacore.Fibonaci" />
       <module name="javacore" />
@@ -115,6 +102,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.plus.temp2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.plus.javacore.classobject.Student" />
+      <module name="javacore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.plus.javacore.classobject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,18 +236,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Fibonaci" />
-      <item itemvalue="Application.Ex42" />
       <item itemvalue="Application.Sample1 (1)" />
       <item itemvalue="Application.Amstrong" />
       <item itemvalue="Application.ArrayDup" />
+      <item itemvalue="Application.Student" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.Amstrong" />
         <item itemvalue="Application.ArrayDup" />
         <item itemvalue="Application.Sample1 (1)" />
         <item itemvalue="Application.Fibonaci" />
-        <item itemvalue="Application.Ex42" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +269,7 @@
       <workItem from="1601816243022" duration="867000" />
       <workItem from="1602593849702" duration="7994000" />
       <workItem from="1602685571372" duration="4215000" />
-      <workItem from="1602736134252" duration="6521000" />
+      <workItem from="1602736134252" duration="9624000" />
     </task>
     <servers />
   </component>
