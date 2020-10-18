@@ -15,17 +15,22 @@ public class ArrayDup {
 
         //Buoc 2: remove cac gia tri trung nhau
         int j = 0;
+        int[] newArray = new int[length];
         for (int i = 0; i < length - 1; i++) {
             if(arr[i] != arr[i+1]) {
-                arr[j++] = arr[i];
+                newArray[j++] = arr[i];
             }
         }
-        arr[j] = arr[length-1];
+        newArray[j] = arr[length-1];
 
-        //Copy vao mang moi
-        int[] newArray = new int[j+1];
-        for (int i = 0; i <= j ; i++) {
-            newArray[i] = arr[i];
+        //Copy to new Final Array
+        int[] finalArray = new int[j+1];
+        for(int i = 0; i< j+1;i++) {
+            finalArray[i] = newArray[i];
         }
+
+        int x= 0;
+
+
     }
 }

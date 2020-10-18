@@ -1,5 +1,6 @@
 package com.plus.practice.exercises.ex5;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -29,14 +30,28 @@ public class Amstrong {
 //        }
 //    }
 
-//    //Cach 2
+    //    //Cach 2
+    public static void main(String[] args) {
+        for (int i = 1; i < 500; i++) {
+            char[] charArray = String.valueOf(i).toCharArray();
+            int pow = charArray.length;
+            int sum = 0;
+            for(char myNum:charArray) {
+                sum = sum + (int)Math.pow(Character.getNumericValue(myNum),pow);
+            }
+            if(sum == i) {
+                System.out.println(i + " is Amstrong number");
+            }
+        }
+    }
 //    public static void main(String[] args) {
-//        for (int i = 1; i < 500; i++) {
-//            char[] charArray = String.valueOf(i).toCharArray();
-//            int pow = charArray.length;
+//        for(int i = 1; i<= 5000; i++) {
+//            //153: (1*1*1) + (5*5*5) + (3*3*3)
+//            char[] charArray =  String.valueOf(i).toCharArray();//1,5,3
+//            int pow = charArray.length;//pow=3
 //            int sum = 0;
-//            for(char myNum:charArray) {
-//                sum = sum + (int)Math.pow(Character.getNumericValue(myNum),pow);
+//            for(char temp:charArray) {
+//                sum = sum + (int)Math.pow(Character.getNumericValue(temp),pow);
 //            }
 //            if(sum == i) {
 //                System.out.println(i + " is Amstrong number");
@@ -45,35 +60,34 @@ public class Amstrong {
 //        }
 //    }
 
-    //Bao
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Input number element of array: ");
+//        int temp, element = sc.nextInt();
+//        int[] array = new int[element];
+//
+//        //input element of array
+//        for (int i = 0; i < element; i++) {
+//            System.out.print("Array[" + i + "] = ");
+//            array[i] = sc.nextInt();
+//        }
+//        //check and removing element duplicate
+//        for(int i = 0; i < (element - 1); i++) {
+//            for(int j = i + 1; j < element; j++) {
+//                if(array[i] == array[j]){
+//                    for(int k = j; k < (element - 1); k++){
+//                        array[k] = array[k+1];
+//                    }
+//                    element--;
+//                }
+//            }
+//
+//        }
+//        //output array after removing duplicate
+//        System.out.println("Array after removing duplicate:");
+//        for (int j = 0; j < element; j++) {
+//            System.out.print(array[j] + " ");
+//        }
+//    }
 
-    public static void main(String[] args){
-        int temp1 = 0, temp2 = 0, sum = 0, element = 0;
-        System.out.println("List number Armstrong between 1 to 500:");
-        for(int i = 1; i <= 500; i++){
-            if(i <= 9){
-                if(i == i*1){
-                    System.out.print(i +" ");
-                }
-            }
-            if(i > 9 && i < 100){
-                temp1 = (i/10) * (i/10) + (i%10) *(i%10);
-                if(i == temp1){
-                    System.out.print(i +" ");
-                }
-            }
-            if (i >= 100) {
-                temp2 = i;
-                sum = 0;
-                while (temp2 != 0){
-                    element = temp2 % 10;
-                    sum += Math.pow(element, 3);
-                    temp2 /= 10;
-                }
-                if(i == sum){
-                    System.out.print(i +" ");
-                }
-            }
-        }
-    }
 }
