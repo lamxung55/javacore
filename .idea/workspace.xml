@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8daec549-b269-4aa4-b32f-821dad713b68" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/plus/Product.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/plus/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex6/student/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex6/student/StudentManagement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/plus/test/Children.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/plus/test/Customer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/plus/test/Student.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/Amstrong.java" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/Amstrong.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/ArrayDup.java" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex5/ArrayDup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex6/student/StudentManagement.java" afterPath="$PROJECT_DIR$/src/com/plus/practice/exercises/ex6/student/StudentManagement.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,8 +53,8 @@
       <file leaf-file-name="StudentManagement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/plus/practice/exercises/ex6/student/StudentManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+            <state relative-caret-position="291">
+              <caret line="92" column="44" lean-forward="true" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -842,15 +832,16 @@
       <workItem from="1602593849702" duration="7994000" />
       <workItem from="1602685571372" duration="4215000" />
       <workItem from="1602736134252" duration="9624000" />
-      <workItem from="1602852466668" duration="15159000" />
+      <workItem from="1602852466668" duration="15703000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15159000" />
+    <option name="totallyTimeSpent" value="15703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -865,7 +856,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1047,8 +1038,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/plus/practice/exercises/ex6/student/StudentManagement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="72" column="30" lean-forward="false" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        <state relative-caret-position="291">
+          <caret line="92" column="44" lean-forward="true" selection-start-line="92" selection-start-column="44" selection-end-line="92" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

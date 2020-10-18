@@ -48,27 +48,44 @@ public class StudentManagement {
         return count;
     }
 
+    //    public Student getGpaMaxMin(boolean isMax) {
+//        float[] lstGpa = new float[students.length];
+//        for (int i = 0;i < students.length; i++) {
+//            lstGpa[i] = students[i].getGpa();
+//        }
+//        Arrays.sort(lstGpa);
+//        for(Student student:students) {
+//            if(isMax) {
+//                if (student.getGpa() == lstGpa[lstGpa.length - 1]) {
+//                    return student;
+//                }
+//            } else {
+//                if (student.getGpa() == lstGpa[0]) {
+//                    return student;
+//                }
+//            }
+//        }
+//        return null;
+//    }
     public Student getGpaMaxMin(boolean isMax) {
-        float[] lstGpa = new float[students.length];
-        for (int i = 0;i < students.length; i++) {
-            lstGpa[i] = students[i].getGpa();
-        }
-        Arrays.sort(lstGpa);
-        for(Student student:students) {
-            if(isMax) {
-                if (student.getGpa() == lstGpa[lstGpa.length - 1]) {
-                    return student;
+        Student result = students[0];
+        if(isMax) {
+            for (int i = 0; i < students.length ; i++) {
+                if(students[i].getGpa() >= result.getGpa()){
+                    result = students[i];
                 }
-            } else {
-                if (student.getGpa() == lstGpa[0]) {
-                    return student;
+            }
+        }else {
+            for (int i = 0; i < students.length ; i++) {
+                if(students[i].getGpa() <= result.getGpa()){
+                    result = students[i];
                 }
             }
         }
-        return null;
+        return  result;
     }
 
-//     + Nhập vào thông tin sinh viên.
+    //     + Nhập vào thông tin sinh viên.
 //            + In ra tổng số sinh viên đỗ.
 //    + In ra tổng số sinh viên trượt.
 //    + In ra thông tin sinh viên có điểm GPA cao nhất.
