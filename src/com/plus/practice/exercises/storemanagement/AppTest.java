@@ -13,7 +13,7 @@ public class AppTest {
             SmartPhone[] smartPhones = new SmartPhone[5];
             for (int j = 0; j < smartPhones.length; j++) {
                 //public SmartPhone(String brand, boolean hasBluetooth, boolean has5g, boolean hasWifi, String os, float memory, String color, long price, int totalSold) {
-                SmartPhone phone = new SmartPhone("Hang " + j,false,true,true,"Android",5,"Red",10,rd.nextInt(10));
+                SmartPhone phone = new SmartPhone("Hang " + j, false, true, true, "Android", 5, "Red", 10, rd.nextInt(10));
                 smartPhones[j] = phone;
             }
             Store storei = new Store();
@@ -23,8 +23,8 @@ public class AppTest {
         }
 
         //In ra chi tiet:
-        for(Store store:stores) {
-            for(SmartPhone smartPhone:store.getPhones()) {
+        for (Store store : stores) {
+            for (SmartPhone smartPhone : store.getPhones()) {
                 System.out.println(smartPhone.toString());
             }
         }
@@ -33,8 +33,5 @@ public class AppTest {
 
         StoreManagement storeManagement = new StoreManagement(stores);
         System.out.println(storeManagement.getRevenueMaxMin(true).getStoreName());
-
-
-
     }
 }
