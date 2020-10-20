@@ -12,7 +12,7 @@ public class StudentManagement {
     private Student[] students;
 
     public StudentManagement() {
-        System.out.println("Input total students:");
+        System.out.print("Input number of students:");
         Scanner sc = new Scanner(System.in);
         this.totalStudent = sc.nextInt();
         students = new Student[totalStudent];
