@@ -150,6 +150,51 @@ public class Sample {
             }
         }
 
+        /**
+         * =======================================================
+         * =======================================================
+         * Writer
+         */
+
+        /**
+         * BufferedWriter: write
+         */
+        BufferedWriter bw = null;
+        try {
+            bw = new BufferedWriter(new FileWriter("out.txt"));
+            bw.write("Xin chao");
+            bw.newLine();
+            bw.write("Good bye");
+            System.out.println("Finished");
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                bw.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        /**
+         * PrintWriter: write
+         */
+        PrintWriter printWriter = null;
+        try {
+            printWriter = new PrintWriter(new FileOutputStream("out2.txt"));
+            printWriter.write("Xin chào - Tạm biệt");
+            System.out.println("PrintWriter Finished");
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                printWriter.close();
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+
 
     }
 }
