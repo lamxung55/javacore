@@ -179,20 +179,20 @@ public class Sample {
         /**
          * PrintWriter: write
          */
-        PrintWriter printWriter = null;
-        try {
-            printWriter = new PrintWriter(new FileOutputStream("out2.txt"));
-            printWriter.write("Xin chào - Tạm biệt");
-            System.out.println("PrintWriter Finished");
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                printWriter.close();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
+//        PrintWriter printWriter = null;
+//        try {
+//            printWriter = new PrintWriter(new FileOutputStream("out2.txt"));
+//            printWriter.write("Xin chào - Tạm biệt");
+//            System.out.println("PrintWriter Finished");
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        } finally {
+//            try {
+//                printWriter.close();
+//            } catch (Exception e) {
+//                e.printStackTrace();
+//            }
+//        }
 
 
 
